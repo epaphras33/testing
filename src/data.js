@@ -1,55 +1,75 @@
-import img1 from "./img1.jpg";
-import img2 from "./img3.jpg";
-import img3 from "./img4.jpg";
-import img4 from "./img5.jpg";
-import img5 from "./img6.jpg";
-
-const data = [
-    {
-        id: 1,
-        image: img1,
-        name: 'agu monica',
-        regNo: '2007/12345',
-        address: 'enugu north',
-        cAss: 29,
-        exam: 69
-    },
-    {
-        id: 2,
-        image: img2,
-        name: 'eneh Hyacinth',
-        regNo: '2007/12355',
-        address: 'ezeagu',
-        cAss: 28,
-        exam: 53
-    },
-    {
-        id: 3,
-        image: img3,
-        name: 'mgbada uju',
-        regNo: '2007/12445',
-        address: 'igbo-etiti',
-        cAss: 17,
-        exam: 21
-    },
-    {
-        id: 4,
-        image: img4,
-        name: 'odum kelechi',
-        regNo: '2007/13345',
-        address: 'igbo-eze south',
-        cAss: 21,
-        exam: 25
-    },
-    {
-        id: 5,
-        image: img5,
-        name: 'ugo',
-        regNo: '2007/11345',
-        address: 'awgu',
-        cAss: 23,
-        exam: 24
-    }
+const menu = [
+  {
+    id: 1,
+    title: 'buttermilk pancakes',
+    category: 'breakfast',
+    price: 15.99,
+    img: './images/item-1.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 2,
+    title: 'diner double',
+    category: 'lunch',
+    price: 13.99,
+    img: './images/item-2.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 3,
+    title: 'godzilla milkshake',
+    category: 'shakes',
+    price: 6.99,
+    img: './images/item-3.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 4,
+    title: 'country delight',
+    category: 'breakfast',
+    price: 20.99,
+    img: './images/item-4.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 5,
+    title: 'egg attack',
+    category: 'lunch',
+    price: 22.99,
+    img: './images/item-5.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta. `,
+  },
+  {
+    id: 6,
+    title: 'oreo dream',
+    category: 'shakes',
+    price: 18.99,
+    img: './images/item-6.jpeg',
+    desc: `PLorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 7,
+    title: 'bacon overflow',
+    category: 'breakfast',
+    price: 8.99,
+    img: './images/item-7.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 8,
+    title: 'american classic',
+    category: 'lunch',
+    price: 12.99,
+    img: './images/item-8.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
+  {
+    id: 9,
+    title: 'quarantine buddy',
+    category: 'shakes',
+    price: 16.99,
+    img: './images/item-1.jpeg',
+    desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum qui fugit magnam vel veniam dicta.`,
+  },
 ];
-
-export default data;
+export default menu;
